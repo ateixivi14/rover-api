@@ -1,5 +1,8 @@
-package com.training.roverapi.domain;
+package com.training.roverapi.service;
 
+import com.training.roverapi.domain.Direction;
+import com.training.roverapi.domain.Movement;
+import com.training.roverapi.domain.MovementEngineResponse;
 import com.training.roverapi.entity.Rover;
 import org.springframework.stereotype.Component;
 

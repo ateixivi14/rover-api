@@ -3,7 +3,6 @@ package com.training.roverapi.service;
 import com.training.roverapi.controller.RoverRequest;
 import com.training.roverapi.domain.Direction;
 import com.training.roverapi.domain.Movement;
-import com.training.roverapi.domain.MovementEngine;
 import com.training.roverapi.domain.MovementEngineResponse;
 import com.training.roverapi.dto.RoverDto;
 import com.training.roverapi.entity.Rover;

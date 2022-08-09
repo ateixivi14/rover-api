@@ -2,7 +2,7 @@ package com.training.roverapi.engine;
 
 import com.training.roverapi.domain.Direction;
 import com.training.roverapi.domain.Movement;
-import com.training.roverapi.domain.MovementEngine;
+import com.training.roverapi.service.MovementEngine;
 import com.training.roverapi.domain.MovementEngineResponse;
 import com.training.roverapi.entity.Rover;
 import org.junit.jupiter.api.Test;

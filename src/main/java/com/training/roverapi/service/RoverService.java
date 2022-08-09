@@ -1,8 +1,6 @@
 package com.training.roverapi.service;
 
 import com.training.roverapi.controller.RoverRequest;
-import com.training.roverapi.domain.Movement;
-import com.training.roverapi.domain.MovementEngine;
 import com.training.roverapi.domain.MovementEngineResponse;
 import com.training.roverapi.dto.RoverDto;
 import com.training.roverapi.entity.Rover;
@@ -38,9 +36,7 @@ public class RoverService {
     private boolean isObstacleBlocking(MovementEngineResponse movementEngineResponse) {
         return obstacleHandler.existsObstacleByCoordinates(movementEngineResponse.getX(), movementEngineResponse.getY());
     }
-    
-    
-    
+
     private boolean isOutTheMap(MovementEngineResponse movementEngineResponse, int mapX, int mapY) {
         return movementEngineResponse.getY() > mapY || movementEngineResponse.getX() > mapX;
     }
