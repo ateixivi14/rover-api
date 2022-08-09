@@ -105,7 +105,7 @@ public class RoverServiceShould {
     @Test
     public void throw_an_exception_when_its_out_of_map() {
         roverRequest.setSizex(5);
-        roverRequest.setSizex(5);
+        roverRequest.setSizey(5);
 
         when(roverRepository.findById(ROVER_ID)).thenReturn(Optional.of(ROVER));
         when(movementEngine.activeEngineMovement(ROVER, Movement.FORWARD))
