@@ -81,3 +81,6 @@ Also it has been defined a github workflow pipeline (`.github/workflows/rover-ap
 
 It could be possible to use other relational databases as mysql or postgres. 
 For that, it would be necessary to add a docker-compose and use flyway to migrate data to the databases and create the tables.  
+
+### Problems and difficulties:
+It was not possible to commit in to repository original challange
