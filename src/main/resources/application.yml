@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    open-in-view: 'false'
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: 'true'
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: 'true'
+  h2:
+    console:
+      enabled: 'true'
+      path: /h2
+  datasource:
+    username: user
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    password: pass

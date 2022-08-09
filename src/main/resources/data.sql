@@ -1,0 +1,1 @@
+INSERT INTO rover (id,x,y,direction) VALUES (1, 5,5,'NORTH');
